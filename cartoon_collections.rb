@@ -12,9 +12,7 @@ end
 def long_planeteer_calls(calls)
   calls = ["puff", "go", "two"]
   calls.each { |words| calls.length > 4 }
-  true 
-else 
-  false
+  true
 end
 
 def find_the_cheese# code an argument here
