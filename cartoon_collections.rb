@@ -1,4 +1,5 @@
-def roll_call_dwarves(arr =  ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey'])
+def roll_call_dwarves(arr)
+  arr = ['Dopey']
   arr.each_with_index do |dwarf, idx|
   puts "#{idx}. #{dwarf}"
 end
