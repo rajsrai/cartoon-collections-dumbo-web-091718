@@ -7,8 +7,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  summon.map! {|calls| summon.capitalize }
-summon.each { |name| puts name + '!' }
+  planeteer_calls.map! {|calls| summon.capitalize }
+planeteer_calls.each { |name| puts name + '!' }
 end
 
 def long_planeteer_calls# code an argument here
