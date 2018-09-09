@@ -1,4 +1,4 @@
-def roll_call_dwarves(arr)
+def roll_call_dwarves
   arr = ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey']
   arr.each_with_index
   print arr
