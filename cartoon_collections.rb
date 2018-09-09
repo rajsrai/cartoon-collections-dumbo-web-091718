@@ -10,10 +10,11 @@ planeteer_calls.collect { |calls| calls.capitalize + '!' }
 end
 
 def long_planeteer_calls(calls)
-  false
   calls = ["puff", "go", "two"]
   calls.each { |words| calls.length > 4 }
-  true
+  true 
+else 
+  false
 end
 
 def find_the_cheese# code an argument here
