@@ -5,10 +5,9 @@ def roll_call_dwarves(arr)
 end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
   summon.map! {|calls| name.capitalize }
-
-names.each { |name| puts name + ' is a programmer' }
+summon.each { |name| puts name + ' is a programmer' }
 end
 
 def long_planeteer_calls# code an argument here
