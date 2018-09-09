@@ -1,5 +1,5 @@
 def roll_call_dwarves(arr)
-  arr = ['Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey']
+  arr = ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey']
   puts arr
 end
 
