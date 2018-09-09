@@ -1,8 +1,8 @@
 def roll_call_dwarves(arr)
   arr = ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey']
   arr.each_with_index do |num, idx|
-  end
   puts "#{idx}. #{arr}"
+end
 end
 
 def summon_captain_planet# code an argument here
