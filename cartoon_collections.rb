@@ -1,6 +1,7 @@
 def roll_call_dwarves(arr)
   arr = ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey']
-  print arr
+  arr.each_with_index
+  puts arr
 end
 
 def summon_captain_planet# code an argument here
