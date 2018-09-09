@@ -10,6 +10,7 @@ planeteer_calls.collect { |calls| calls.capitalize + '!' }
 end
 
 def long_planeteer_calls(calls)
+  calls = ["puff", "go", "two"]
   calls.collect { |words| calls.length > 4 } ? true : false
 end
 
