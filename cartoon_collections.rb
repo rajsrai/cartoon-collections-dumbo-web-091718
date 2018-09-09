@@ -10,8 +10,9 @@ planeteer_calls.collect { |calls| calls.capitalize + '!' }
 end
 
 def long_planeteer_calls(calls)
-  calls.collect { |words| calls.length >= 4 }
-  return false 
+  calls.collect { |words| calls.length > 4 }
+  return false
+ else return true
 end
 
 def find_the_cheese# code an argument here
