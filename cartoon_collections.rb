@@ -6,8 +6,9 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-planeteer_calls = ["apple", "banana", "orange"]
+planeteer_calls = ["apple", "banana", "orange", "carrot", "cucumber", "pepper"]
  planeteer_calls.map! { |calls| calls.capitalize + "!" }
+ 
 end
 
 def long_planeteer_calls# code an argument here
