@@ -1,5 +1,5 @@
 def roll_call_dwarves# code an argument here
-  arr = Array.new
+  arr = 
   
 end
 
